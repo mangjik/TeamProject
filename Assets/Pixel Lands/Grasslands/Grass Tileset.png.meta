@@ -1,0 +1,1820 @@
+fileFormatVersion: 2
+guid: 4aac68d1d713bbf4395df332757870be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1347532211411968617
+    second: Grass_0
+  - first:
+      213: -7645372005702169758
+    second: Grass_1
+  - first:
+      213: 6891631753638271631
+    second: Grass_2
+  - first:
+      213: 475435623110610922
+    second: Grass_3
+  - first:
+      213: 5299400320964040512
+    second: Grass_4
+  - first:
+      213: -7255497285719700247
+    second: Grass_5
+  - first:
+      213: 6828908663453297030
+    second: Grass_6
+  - first:
+      213: 6694032873506494867
+    second: Grass_7
+  - first:
+      213: 2289616372777055746
+    second: Grass_8
+  - first:
+      213: 7471297114442723461
+    second: Grass_9
+  - first:
+      213: 8577017789959637929
+    second: Grass_10
+  - first:
+      213: -6796477259373386654
+    second: Grass_11
+  - first:
+      213: -6259141551469331208
+    second: Grass_12
+  - first:
+      213: 7867572149665653903
+    second: Grass_13
+  - first:
+      213: 1423580199096852351
+    second: Grass_14
+  - first:
+      213: 3123766704050763852
+    second: Grass_15
+  - first:
+      213: 623291888168982980
+    second: Grass_16
+  - first:
+      213: -5626483540472518896
+    second: Grass_17
+  - first:
+      213: 1919191684500152330
+    second: Grass_18
+  - first:
+      213: 8708326412996271838
+    second: Grass_19
+  - first:
+      213: 8858074383131022294
+    second: Grass_20
+  - first:
+      213: 1134508411569925052
+    second: Grass_21
+  - first:
+      213: -5746465488554784155
+    second: Grass_22
+  - first:
+      213: -5105955547117038907
+    second: Grass_23
+  - first:
+      213: 6568613397067072510
+    second: Grass_24
+  - first:
+      213: 8569811845573091685
+    second: Grass_25
+  - first:
+      213: -9108806569825453820
+    second: Grass_26
+  - first:
+      213: -2083932125734120256
+    second: Grass_27
+  - first:
+      213: -84818713481696047
+    second: Grass_28
+  - first:
+      213: -1769464994301294128
+    second: Grass_29
+  - first:
+      213: 867027377922445235
+    second: Grass_30
+  - first:
+      213: 6981012935291359138
+    second: Grass_31
+  - first:
+      213: 5391302136669364372
+    second: Grass_32
+  - first:
+      213: 7480997201496867402
+    second: Grass_33
+  - first:
+      213: -3650925754252701862
+    second: Grass_34
+  - first:
+      213: 5070681551309443399
+    second: Grass_35
+  - first:
+      213: 4226905133579764001
+    second: Grass_36
+  - first:
+      213: -1848801932137997923
+    second: Grass_37
+  - first:
+      213: 6815309071022534888
+    second: Grass_38
+  - first:
+      213: 6939216490195813167
+    second: Grass_39
+  - first:
+      213: 2340946528688688073
+    second: Grass_40
+  - first:
+      213: -1478315292225623447
+    second: Grass_41
+  - first:
+      213: 5624738800672850288
+    second: Grass_42
+  - first:
+      213: 3414760652145333696
+    second: Grass_43
+  - first:
+      213: 3731086581688822653
+    second: Grass_44
+  - first:
+      213: 5150080732623183451
+    second: Grass_45
+  - first:
+      213: -897572598935085696
+    second: Grass_46
+  - first:
+      213: 2073705009435843567
+    second: Grass_47
+  - first:
+      213: -2850508208564474291
+    second: Grass_48
+  - first:
+      213: -3596093412343161402
+    second: Grass_49
+  - first:
+      213: -1306137694696396013
+    second: Grass_50
+  - first:
+      213: -4179248830790531381
+    second: Grass_51
+  - first:
+      213: -3365635889071900459
+    second: Grass_52
+  - first:
+      213: 3199613026440588728
+    second: Grass_53
+  - first:
+      213: 2245943887191158072
+    second: Grass_54
+  - first:
+      213: 5274774520206374834
+    second: Grass_55
+  - first:
+      213: 4254727308752461092
+    second: Grass_56
+  - first:
+      213: -3307781333056621137
+    second: Grass_57
+  - first:
+      213: -1318756051056640941
+    second: Grass_58
+  - first:
+      213: -1467518264796747683
+    second: Grass_59
+  - first:
+      213: -6823493816187154817
+    second: Grass_60
+  - first:
+      213: -8329857416729492516
+    second: Grass_61
+  - first:
+      213: 1783213808783142998
+    second: Grass_62
+  - first:
+      213: 449998990499530787
+    second: Grass_63
+  - first:
+      213: -953007637746616386
+    second: Grass_64
+  - first:
+      213: 4108299680548352126
+    second: Grass_65
+  - first:
+      213: 1191734863358615477
+    second: Grass Tileset_0
+  - first:
+      213: -1891334407380981513
+    second: Grass Tileset_1
+  - first:
+      213: 846682407352051440
+    second: Grass Tileset_2
+  - first:
+      213: 2170808566298203743
+    second: Grass Tileset_3
+  - first:
+      213: 5462806806865470593
+    second: Grass Tileset_4
+  - first:
+      213: -3521167632996297477
+    second: Grass Tileset_5
+  - first:
+      213: -5089466097568319212
+    second: Grass Tileset_6
+  - first:
+      213: 5519562610857406319
+    second: Grass Tileset_7
+  - first:
+      213: 2506138656846957385
+    second: Grass Tileset_8
+  - first:
+      213: -4626343138616434868
+    second: Grass Tileset_9
+  - first:
+      213: -7384218507292920682
+    second: Grass Tileset_10
+  - first:
+      213: -5571521191008439415
+    second: Grass Tileset_11
+  - first:
+      213: -6964872363631940821
+    second: Grass Tileset_12
+  - first:
+      213: -505608282734869324
+    second: Grass Tileset_13
+  - first:
+      213: 7256158158920593759
+    second: Grass Tileset_14
+  - first:
+      213: 2031791822304796516
+    second: Grass Tileset_15
+  - first:
+      213: 261425943217377951
+    second: Grass Tileset_16
+  - first:
+      213: -5038102664825849581
+    second: Grass Tileset_17
+  - first:
+      213: -1002470865045305514
+    second: Grass Tileset_18
+  - first:
+      213: 3705118404590161463
+    second: Grass Tileset_19
+  - first:
+      213: 1317753895634331166
+    second: Grass Tileset_20
+  - first:
+      213: -1197560036687759781
+    second: Grass Tileset_21
+  - first:
+      213: 1117098599977210883
+    second: Grass Tileset_22
+  - first:
+      213: 8469752943793292537
+    second: Grass Tileset_23
+  - first:
+      213: 5681785734719548306
+    second: Grass Tileset_24
+  - first:
+      213: 7042125323158449090
+    second: Grass Tileset_25
+  - first:
+      213: 4666538959519160482
+    second: Grass Tileset_26
+  - first:
+      213: -8551369277430953496
+    second: Grass Tileset_27
+  - first:
+      213: -4999648141569621675
+    second: Grass Tileset_28
+  - first:
+      213: -5615032391979667618
+    second: Grass Tileset_29
+  - first:
+      213: 2798352191109528216
+    second: Grass Tileset_30
+  - first:
+      213: -3673608528697946453
+    second: Grass Tileset_31
+  - first:
+      213: 4400498141542476591
+    second: Grass Tileset_32
+  - first:
+      213: 267286444757306121
+    second: Grass Tileset_33
+  - first:
+      213: -3474116791492087859
+    second: Grass Tileset_34
+  - first:
+      213: -3109551674381084188
+    second: Grass Tileset_35
+  - first:
+      213: 8656608331014398360
+    second: Grass Tileset_36
+  - first:
+      213: -6918459802826038784
+    second: Grass Tileset_37
+  - first:
+      213: 9011903092466123660
+    second: Grass Tileset_38
+  - first:
+      213: -8899197040792456120
+    second: Grass Tileset_39
+  - first:
+      213: -5981192239893902217
+    second: Grass Tileset_40
+  - first:
+      213: -2105293337847520633
+    second: Grass Tileset_41
+  - first:
+      213: -2287698072268365572
+    second: Grass Tileset_42
+  - first:
+      213: -8795154483088280091
+    second: Grass Tileset_43
+  - first:
+      213: -6692455470289309909
+    second: Grass Tileset_44
+  - first:
+      213: 4736914693337894214
+    second: Grass Tileset_45
+  - first:
+      213: 271183368819841609
+    second: Grass Tileset_46
+  - first:
+      213: 2777369107722984234
+    second: Grass Tileset_47
+  - first:
+      213: 7366366981856836122
+    second: Grass Tileset_48
+  - first:
+      213: -8941275803016721755
+    second: Grass Tileset_49
+  - first:
+      213: -2436313351117383217
+    second: Grass Tileset_50
+  - first:
+      213: -5825506882660719310
+    second: Grass Tileset_51
+  - first:
+      213: 2785290112888843919
+    second: Grass Tileset_52
+  - first:
+      213: 6498222853978173215
+    second: Grass Tileset_53
+  - first:
+      213: -3613292579314174082
+    second: Grass Tileset_54
+  - first:
+      213: 6349533803383624827
+    second: Grass Tileset_55
+  - first:
+      213: 404691917865921371
+    second: Grass Tileset_56
+  - first:
+      213: -2891309403262582573
+    second: Grass Tileset_57
+  - first:
+      213: 6235281501964286357
+    second: Grass Tileset_58
+  - first:
+      213: 6549780394541484987
+    second: Grass Tileset_59
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grass Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf50fc4b84e98010800000000000000
+      internalID: 1191734863358615477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f825909061a0c5e0800000000000000
+      internalID: -1891334407380981513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6aacfd92500cb00800000000000000
+      internalID: 846682407352051440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56549db3e2402e10800000000000000
+      internalID: 2170808566298203743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1846dcff8d9cfcb40800000000000000
+      internalID: 5462806806865470593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf417a891bc422fc0800000000000000
+      internalID: -3521167632996297477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419fb06ac859e59b0800000000000000
+      internalID: -5089466097568319212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6feeaf53fc699c40800000000000000
+      internalID: 5519562610857406319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bcc3f84d797c220800000000000000
+      internalID: 2506138656846957385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f93b54d6debcfb0800000000000000
+      internalID: -4626343138616434868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694b0f0146cf58990800000000000000
+      internalID: -7384218507292920682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9837167fefafda2b0800000000000000
+      internalID: -5571521191008439415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b68cb9c7dc75f90800000000000000
+      internalID: -6964872363631940821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4c71812f7bbf8f0800000000000000
+      internalID: -505608282734869324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51b388966d03b460800000000000000
+      internalID: 7256158158920593759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f5502c5ef523c10800000000000000
+      internalID: 2031791822304796516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f921b80a285c0a300800000000000000
+      internalID: 261425943217377951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3193b11c150151ab0800000000000000
+      internalID: -5038102664825849581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657cb4f3f028612f0800000000000000
+      internalID: -1002470865045305514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ecb54fe893b6330800000000000000
+      internalID: 3705118404590161463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16eba2bf2a994210800000000000000
+      internalID: 1317753895634331166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56b508dd79616fe0800000000000000
+      internalID: -1197560036687759781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3045abe024bb08f00800000000000000
+      internalID: 1117098599977210883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f44e1e7d6b9a8570800000000000000
+      internalID: 8469752943793292537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b27d7b502c9de40800000000000000
+      internalID: 5681785734719548306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb64aeaba7aab160800000000000000
+      internalID: 7042125323158449090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a819a49570e2c040800000000000000
+      internalID: 4666538959519160482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e90a8303fe635980800000000000000
+      internalID: -8551369277430953496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5510dc7218ead9ab0800000000000000
+      internalID: -4999648141569621675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f6db90ac56312b0800000000000000
+      internalID: -5615032391979667618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89af483dd7eb5d620800000000000000
+      internalID: 2798352191109528216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae0d1bb188b40dc0800000000000000
+      internalID: -3673608528697946453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2be761beb5b11d30800000000000000
+      internalID: 4400498141542476591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b4909fa9795b300800000000000000
+      internalID: 267286444757306121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfe4ee4f2579cfc0800000000000000
+      internalID: -3474116791492087859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e95bcd2a37a8d4d0800000000000000
+      internalID: -3109551674381084188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891ecc19963722870800000000000000
+      internalID: 8656608331014398360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0022cb30771bcff90800000000000000
+      internalID: -6918459802826038784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8300b09d16b01d70800000000000000
+      internalID: 9011903092466123660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844bb5df073bf7480800000000000000
+      internalID: -8899197040792456120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c0dc7f8598efca0800000000000000
+      internalID: -5981192239893902217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7822a911dde78c2e0800000000000000
+      internalID: -2105293337847520633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0291959b67040e0800000000000000
+      internalID: -2287698072268365572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_43
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5b6daa89551f580800000000000000
+      internalID: -8795154483088280091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f294a353f9f13a0800000000000000
+      internalID: -6692455470289309909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_45
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64dcbbbf0d6ecb140800000000000000
+      internalID: 4736914693337894214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a108f46df63c300800000000000000
+      internalID: 271183368819841609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_47
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bd8f30d723b8620800000000000000
+      internalID: 2777369107722984234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a3eb6cdb79a3660800000000000000
+      internalID: 7366366981856836122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa8462b7053ae380800000000000000
+      internalID: -8941275803016721755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc95b115ae9703ed0800000000000000
+      internalID: -2436313351117383217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2352a66ea54a72fa0800000000000000
+      internalID: -5825506882660719310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ea52fb99657a620800000000000000
+      internalID: 2785290112888843919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fa1b2b1435e2a50800000000000000
+      internalID: 6498222853978173215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e777c6c0b810bddc0800000000000000
+      internalID: -3613292579314174082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7414085a531e1850800000000000000
+      internalID: 6349533803383624827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5baed7b721cd9500800000000000000
+      internalID: 404691917865921371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d089c2aa6100e7d0800000000000000
+      internalID: -2891309403262582573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59935277d7b288650800000000000000
+      internalID: 6235281501964286357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass Tileset_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb867d019e75ea50800000000000000
+      internalID: 6549780394541484987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Grass Tileset_52: 2785290112888843919
+      Grass Tileset_44: -6692455470289309909
+      Grass Tileset_27: -8551369277430953496
+      Grass Tileset_19: 3705118404590161463
+      Grass Tileset_7: 5519562610857406319
+      Grass Tileset_5: -3521167632996297477
+      Grass Tileset_43: -8795154483088280091
+      Grass Tileset_46: 271183368819841609
+      Grass Tileset_29: -5615032391979667618
+      Grass Tileset_28: -4999648141569621675
+      Grass Tileset_50: -2436313351117383217
+      Grass Tileset_12: -6964872363631940821
+      Grass Tileset_40: -5981192239893902217
+      Grass Tileset_57: -2891309403262582573
+      Grass Tileset_23: 8469752943793292537
+      Grass Tileset_33: 267286444757306121
+      Grass Tileset_18: -1002470865045305514
+      Grass Tileset_45: 4736914693337894214
+      Grass Tileset_51: -5825506882660719310
+      Grass Tileset_47: 2777369107722984234
+      Grass Tileset_53: 6498222853978173215
+      Grass Tileset_35: -3109551674381084188
+      Grass Tileset_0: 1191734863358615477
+      Grass Tileset_8: 2506138656846957385
+      Grass Tileset_36: 8656608331014398360
+      Grass Tileset_55: 6349533803383624827
+      Grass Tileset_11: -5571521191008439415
+      Grass Tileset_37: -6918459802826038784
+      Grass Tileset_26: 4666538959519160482
+      Grass Tileset_4: 5462806806865470593
+      Grass Tileset_15: 2031791822304796516
+      Grass Tileset_21: -1197560036687759781
+      Grass Tileset_30: 2798352191109528216
+      Grass Tileset_9: -4626343138616434868
+      Grass Tileset_31: -3673608528697946453
+      Grass Tileset_56: 404691917865921371
+      Grass Tileset_39: -8899197040792456120
+      Grass Tileset_1: -1891334407380981513
+      Grass Tileset_2: 846682407352051440
+      Grass Tileset_14: 7256158158920593759
+      Grass Tileset_16: 261425943217377951
+      Grass Tileset_13: -505608282734869324
+      Grass Tileset_17: -5038102664825849581
+      Grass Tileset_3: 2170808566298203743
+      Grass Tileset_38: 9011903092466123660
+      Grass Tileset_6: -5089466097568319212
+      Grass Tileset_32: 4400498141542476591
+      Grass Tileset_41: -2105293337847520633
+      Grass Tileset_49: -8941275803016721755
+      Grass Tileset_42: -2287698072268365572
+      Grass Tileset_48: 7366366981856836122
+      Grass Tileset_59: 6549780394541484987
+      Grass Tileset_10: -7384218507292920682
+      Grass Tileset_22: 1117098599977210883
+      Grass Tileset_34: -3474116791492087859
+      Grass Tileset_54: -3613292579314174082
+      Grass Tileset_58: 6235281501964286357
+      Grass Tileset_20: 1317753895634331166
+      Grass Tileset_24: 5681785734719548306
+      Grass Tileset_25: 7042125323158449090
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
