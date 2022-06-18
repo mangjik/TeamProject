@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e330063191032404e9666916968330e8, type: 3}
+  m_Name: WizardSkill
+  m_EditorClassIdentifier: 
+  skills:
+  - name: "\uC2A4\uD0AC\uC774\uB984"
+    ConsumedMP: -12
+    AttackPoint: 0
+    Delay: 0
+    Icon: {fileID: 0}
+    TriggerName: 
+    Throw: {fileID: 0}
+    Speed: 0
+    Removing: 0
+  - name: "\uAE30\uBCF8 \uACF5\uACA9"
+    ConsumedMP: 0
+    AttackPoint: 5
+    Delay: 0.2
+    Icon: {fileID: 0}
+    TriggerName: Skill1
+    Throw: {fileID: 5126873409645162107, guid: 53715a3d8c433a64c973fdbc6d386a4b, type: 3}
+    Speed: 12
+    Removing: 1
+  - name: Skill1
+    ConsumedMP: 5
+    AttackPoint: 10
+    Delay: 0.5
+    Icon: {fileID: 0}
+    TriggerName: Skill2
+    Throw: {fileID: 9212630871360764219, guid: 27fd14e0278b1064b93493a7b00fe40a, type: 3}
+    Speed: 5
+    Removing: 0
+  - name: Skill2
+    ConsumedMP: 5
+    AttackPoint: 10
+    Delay: 2
+    Icon: {fileID: 0}
+    TriggerName: Skill3
+    Throw: {fileID: 0}
+    Speed: 0
+    Removing: 0
