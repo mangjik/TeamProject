@@ -11,6 +11,7 @@ public class SkillInfo
 
     public Sprite Icon;
     public string TriggerName;
+    public Vector2 BoxSize;
     public GameObject Throw = null;
     public float Speed;
     public bool Removing;

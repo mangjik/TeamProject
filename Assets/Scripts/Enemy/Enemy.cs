@@ -206,11 +206,7 @@ public class Enemy : MonoBehaviour
         if(collision.tag == "Skill")
         {
             SkillObjectControl skill = collision.GetComponent<SkillObjectControl>();
-            m_info.HP -= skill.GetDamage();
-
-            skill.CheckingToRemoveSkill();
-
-            CheckSurvival();
+            TakeDamage(skill);
         }
     }
 
@@ -228,6 +224,22 @@ public class Enemy : MonoBehaviour
     public int GetDamage()
     {
         return m_info.AttackPoint;
+    }
+
+    public void TakeDamage(int damage)
+    {
+        m_info.HP -= damage;
+
+        CheckSurvival();
+    }
+
+    public void TakeDamage(SkillObjectControl skill)
+    {
+        m_info.HP -= skill.GetDamage();
+
+        skill.CheckingToRemoveSkill();
+
+        CheckSurvival();
     }
 
 }

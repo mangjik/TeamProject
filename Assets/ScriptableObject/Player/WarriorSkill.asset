@@ -19,24 +19,27 @@ MonoBehaviour:
     Delay: 0
     Icon: {fileID: 0}
     TriggerName: 
+    BoxSize: {x: 0, y: 0}
+    Throw: {fileID: 0}
+    Speed: 0
+    Removing: 0
+  - name: "\uAE30\uBCF8\uACF5\uACA9"
+    ConsumedMP: 0
+    AttackPoint: 5
+    Delay: 0
+    Icon: {fileID: 0}
+    TriggerName: Skill1
+    BoxSize: {x: 1.15, y: 1.15}
     Throw: {fileID: 0}
     Speed: 0
     Removing: 0
   - name: "\uC2A4\uD0AC1"
     ConsumedMP: 10
-    AttackPoint: 15
-    Delay: 0
-    Icon: {fileID: 0}
-    TriggerName: Skill1
-    Throw: {fileID: 7103205491171855608, guid: 937c5ee7c7164ab4880ce53015b361c3, type: 3}
-    Speed: 0
-    Removing: 1
-  - name: "\uC2A4\uD0AC\uC774\uB984"
-    ConsumedMP: 5
-    AttackPoint: 10
+    AttackPoint: 20
     Delay: 0
     Icon: {fileID: 0}
     TriggerName: Skill2
-    Throw: {fileID: 0}
-    Speed: 0
-    Removing: 0
+    BoxSize: {x: 0, y: 0}
+    Throw: {fileID: 7103205491171855608, guid: 937c5ee7c7164ab4880ce53015b361c3, type: 3}
+    Speed: 4
+    Removing: 1

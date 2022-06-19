@@ -24,6 +24,10 @@ public class Player : MonoBehaviour
 
     private float m_MP;
 
+    [SerializeField]
+    private Transform m_meleeAttackTrans;
+    [SerializeField]
+    private Vector2 m_meleeAttackBoxSize;
 
     private void Start()
     {
@@ -48,9 +52,9 @@ public class Player : MonoBehaviour
             if (m_info.CanJump() == true)
                 this.Jump();
         }
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Z))
             UseSkill(1);
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.X))
             UseSkill(2);
     }
 
@@ -124,7 +128,19 @@ public class Player : MonoBehaviour
 
         m_animator.SetTrigger(animationName);
 
-        if (Throw == null) return;
+        if (Throw == null)
+        {
+            Collider2D[] colliders = Physics2D.OverlapBoxAll(m_meleeAttackTrans.position, skillInfo.BoxSize, 0);
+
+            foreach(var collider in colliders)
+            {
+                if(collider.tag == "Enemy")
+                {
+                    Enemy enemy = collider.GetComponent<Enemy>();
+                    enemy.TakeDamage(skillInfo.AttackPoint);
+                }
+            }
+        }
         else
         {
             GameObject go = Instantiate(Throw);
@@ -160,4 +176,11 @@ public class Player : MonoBehaviour
             m_info.Survival = false;
         }
     }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(m_meleeAttackTrans.position, m_meleeAttackBoxSize);
+    }
+
 }
