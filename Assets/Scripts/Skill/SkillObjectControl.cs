@@ -75,6 +75,10 @@ public class SkillObjectControl : MonoBehaviour
     {
         m_delay = delay;
     }
+    public float GetDealy()
+    {
+        return m_delay;
+    }
     public void SetSpeed(float speed)
     {
         m_speed = speed;

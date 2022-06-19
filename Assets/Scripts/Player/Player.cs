@@ -178,6 +178,25 @@ public class Player : MonoBehaviour
         if(collision.transform.tag == "Enemy")
         {
             m_info.HP -= collision.transform.GetComponent<Enemy>().GetDamage();
+            CheckSurvival();
+        }
+        if(collision.transform.tag == "Boss")
+        {
+            m_info.HP -= collision.transform.GetComponent<Boss>().GetDamage();
+            CheckSurvival();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.transform.tag == "BossSkill")
+        {
+            SkillObjectControl skill = collision.GetComponent<SkillObjectControl>();
+            if (skill.GetDealy() > 0) return;
+            Debug.Log("TakeDamage");
+            m_info.HP -= skill.GetDamage();
+            CheckSurvival();
+            Destroy(collision.gameObject);
         }
     }
 
@@ -187,6 +206,15 @@ public class Player : MonoBehaviour
         {
             m_info.Survival = false;
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        Debug.Log("TakeDamage2");
+
+        m_info.HP -= damage;
+
+        CheckSurvival();
     }
 
     private void OnDrawGizmos()

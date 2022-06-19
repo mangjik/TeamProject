@@ -9,6 +9,8 @@ TagManager:
   - Skill
   - Wall
   - Enemy
+  - Boss
+  - BossSkill
   layers:
   - Default
   - TransparentFX

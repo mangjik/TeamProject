@@ -22,4 +22,10 @@ public class SkillInfo
         triggerName = this.TriggerName;
         return Throw;
     }
+
+    public GameObject UseSkill(out string triggerName)
+    {
+        triggerName = this.TriggerName;
+        return Throw;
+    }
 }

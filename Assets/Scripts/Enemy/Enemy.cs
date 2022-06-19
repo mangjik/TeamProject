@@ -107,9 +107,10 @@ public class Enemy : MonoBehaviour
         {
             if (target.tag != "Player") continue;
 
-            int layerMask = 1 << LayerMask.NameToLayer("Enemy") + 1<<LayerMask.NameToLayer("Skill");
-            RaycastHit2D hit = 
-                Physics2D.Raycast(transform.position, target.transform.position - transform.position,m_info.ViewDistance,~layerMask);
+            int layerMask = (1 << LayerMask.NameToLayer("Enemy")) + (1 << LayerMask.NameToLayer("Skill"));
+            RaycastHit2D hit =
+                Physics2D.Raycast(transform.position, target.transform.position - transform.position, m_info.ViewDistance, ~layerMask);
+            if (hit == null) continue;
 
             Debug.DrawRay(transform.position, target.transform.position - transform.position, Color.red);
             if (target.gameObject == hit.transform.gameObject)
@@ -228,6 +229,7 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        
         m_info.HP -= damage;
 
         CheckSurvival();
