@@ -29,6 +29,15 @@ public class Player : MonoBehaviour
     [SerializeField]
     private Vector2 m_meleeAttackBoxSize;
 
+    public AudioClip audioJump;
+    public AudioClip audio2ndJump;
+    public AudioClip audioAttack;
+    public AudioClip audioMagicAttack;
+    public AudioClip audioDamaged;
+    public AudioClip audioMagicSkill;
+    public AudioClip audioSkill;
+    AudioSource audioSource;
+
     private void Start()
     {
         m_rigid = this.GetComponent<Rigidbody2D>();
@@ -95,11 +104,13 @@ public class Player : MonoBehaviour
         {
             m_info.IsGrounded = false;
             m_animator.SetTrigger("Jump");
+            PlaySound("Jump");
         }
         else if (m_info.DoubleJump == false)
         {
             m_info.DoubleJump = true;
             m_animator.SetTrigger("DoubleJump");
+            PlaySound("Jump");
         }
     }
 
@@ -138,6 +149,7 @@ public class Player : MonoBehaviour
                 {
                     Enemy enemy = collider.GetComponent<Enemy>();
                     enemy.TakeDamage(skillInfo.AttackPoint);
+                    PlaySound("Damaged");
                 }
             }
         }
@@ -183,4 +195,39 @@ public class Player : MonoBehaviour
         Gizmos.DrawWireCube(m_meleeAttackTrans.position, m_meleeAttackBoxSize);
     }
 
+    public void Awake()
+    {
+        this.audioSource = GetComponent<AudioSource>();
+    }
+
+    public void PlaySound(string action)
+    {
+        switch (action)
+        {
+            case "JUMP":
+                audioSource.clip = audioJump;
+                break;
+            case "2ND JUMP":
+                audioSource.clip = audioJump;
+                break;
+            case "ATTACK":
+                audioSource.clip = audioAttack;
+                break;
+            case "MAGICATTACK":
+                audioSource.clip = audioMagicAttack;
+                break;
+            case "DAMAGED":
+                audioSource.clip = audioDamaged;
+                break;
+            case "SKILL":
+                audioSource.clip = audioSkill;
+                break;
+            case "MAGICSKILL":
+                audioSource.clip = audioMagicSkill;
+                break;
+        }
+        audioSource.Play();
+
+      
+    }
 }
