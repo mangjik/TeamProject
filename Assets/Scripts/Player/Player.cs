@@ -43,15 +43,17 @@ public class Player : MonoBehaviour
         m_rigid = this.GetComponent<Rigidbody2D>();
         m_animator = this.GetComponent<Animator>();
         m_spriteRenderer = this.GetComponent<SpriteRenderer>();
-        SetPlayerInfo(PlayerInfos[infoCount]);
+        SetPlayerInfo(PlayerInfos[DataSave.instance.infoCount]);
 
         this.m_animator.runtimeAnimatorController = m_info.animator;
 
+        m_MP = 0;
     }
 
 
     private void Update()
     {
+        RecoverMP();
         if (Input.GetButtonUp("Horizontal"))
         {
             m_rigid.velocity = new Vector2(m_rigid.velocity.normalized.x * 0.1f, m_rigid.velocity.y);
@@ -73,6 +75,21 @@ public class Player : MonoBehaviour
         m_hor = Input.GetAxisRaw("Horizontal");
 
         this.Move();
+    }
+
+    private void RecoverMP()
+    {
+        if (m_info.MP == m_info.MaxMP) return;
+        
+        m_MP += Time.deltaTime;
+
+        if(m_MP >= 1.0f)
+        {
+            m_MP -= 1.0f;
+            m_info.MP += 1;
+
+            UI.instance.SetMP(m_info.MP);
+        }
     }
 
     private void SetPlayerInfo(PlayerInfo playerInfo)

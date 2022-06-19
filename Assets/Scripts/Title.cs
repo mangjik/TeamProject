@@ -18,4 +18,9 @@ public class Title : MonoBehaviour
         Application.Quit();
     }
 
+    public void ChoiceCareer(int count)
+    {
+        DataSave.instance.infoCount = count;
+        SceneManager.LoadScene("Stage");
+    }
 }
