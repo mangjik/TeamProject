@@ -152,6 +152,15 @@ public class Enemy : MonoBehaviour
 
     public void TraceMove()
     {
+        CheckForward(1.5f, 2.0f);
+
+        if(m_state != State.Trace)
+        {
+            m_rigid.velocity = new Vector2(0, m_rigid.velocity.y);
+            m_tracing = false;
+            return;
+        }
+
         switch (m_info.Type)
         {
             case EnemyBasicInfo.MonsterType.Chest:
@@ -166,7 +175,6 @@ public class Enemy : MonoBehaviour
         //transform.Translate((Vector2.right * m_dir) * m_info.RunSpeed);
         m_rigid.velocity = new Vector2(m_dir * m_info.RunSpeed, m_rigid.velocity.y);
 
-        CheckForward(1.5f, 2.0f);
     }
 
     public void SetStateIdle(float min = 0.5f, float max = 1.0f)
@@ -190,7 +198,9 @@ public class Enemy : MonoBehaviour
     {
         Vector2 frontVec = new Vector2(transform.position.x + m_dir * 0.8f, transform.position.y);
 
-        int layerMask = 1 << LayerMask.NameToLayer("Enemy") + 1 << LayerMask.NameToLayer("Skill");
+        int layerMask = (1 << LayerMask.NameToLayer("Enemy")) + (1 << LayerMask.NameToLayer("Skill"))
+            + (1<<LayerMask.NameToLayer("Player"));
+
         RaycastHit2D downHit = Physics2D.Raycast(frontVec, Vector2.down, 1, ~layerMask);
         RaycastHit2D frontHit = Physics2D.Raycast(frontVec, Vector2.right * m_dir, 0.2f, ~layerMask);
 
