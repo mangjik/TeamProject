@@ -46,6 +46,7 @@ public class Player : MonoBehaviour
         SetPlayerInfo(PlayerInfos[infoCount]);
 
         this.m_animator.runtimeAnimatorController = m_info.animator;
+
     }
 
 
@@ -82,6 +83,8 @@ public class Player : MonoBehaviour
         m_info = new PlayerBasicInfo(playerInfo.playerBasicInfo);
 
         m_speed = m_info.Speed;
+
+        UI.instance.Init(m_info.HP, m_info.MaxMP);
     }
 
     private void Move()
@@ -136,6 +139,8 @@ public class Player : MonoBehaviour
         if (m_playerInfo.UseSkill(count, m_info.MP, 
             out m_info.MP, out animationName, out Throw) == false)
             return;
+
+        UI.instance.SetMP(m_info.MP);
 
         m_animator.SetTrigger(animationName);
 
@@ -202,6 +207,7 @@ public class Player : MonoBehaviour
 
     private void CheckSurvival()
     {
+        UI.instance.SetHP(m_info.HP);
         if(m_info.HP <= 0)
         {
             m_info.Survival = false;
@@ -213,6 +219,7 @@ public class Player : MonoBehaviour
         Debug.Log("TakeDamage2");
 
         m_info.HP -= damage;
+
 
         CheckSurvival();
     }
