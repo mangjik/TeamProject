@@ -225,7 +225,7 @@ MonoBehaviour:
     Audio: {fileID: 0}
   - name: 
     ConsumedMP: 0
-    AttackPoint: 0
+    AttackPoint: 20
     Delay: 0
     Icon: {fileID: 0}
     TriggerName: Skill1
@@ -236,7 +236,7 @@ MonoBehaviour:
     Audio: {fileID: 0}
   - name: 
     ConsumedMP: 0
-    AttackPoint: 0
+    AttackPoint: 20
     Delay: 1.1
     Icon: {fileID: 0}
     TriggerName: Skill2
