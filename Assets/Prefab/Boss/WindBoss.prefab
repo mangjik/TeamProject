@@ -222,6 +222,7 @@ MonoBehaviour:
     Throw: {fileID: 0}
     Speed: 0
     Removing: 0
+    Audio: {fileID: 0}
   - name: 
     ConsumedMP: 0
     AttackPoint: 0
@@ -232,6 +233,7 @@ MonoBehaviour:
     Throw: {fileID: 0}
     Speed: 0
     Removing: 0
+    Audio: {fileID: 0}
   - name: 
     ConsumedMP: 0
     AttackPoint: 0
@@ -242,10 +244,11 @@ MonoBehaviour:
     Throw: {fileID: 0}
     Speed: 0
     Removing: 0
+    Audio: {fileID: 0}
   m_info:
     Survival: 0
-    HP: 0
-    AttackPoint: 0
+    HP: 100
+    AttackPoint: 20
     Speed: 3
     Type: 0
     AttackDistance: 3

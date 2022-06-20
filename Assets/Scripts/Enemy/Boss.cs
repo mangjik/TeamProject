@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public class Boss : MonoBehaviour
 {
@@ -270,6 +270,7 @@ public class Boss : MonoBehaviour
         if (m_info.HP <= 0)
         {
             m_info.Survival = false;
+            UI.instance.DecreaseBossCount();
             Destroy(this.gameObject);
         }
     }

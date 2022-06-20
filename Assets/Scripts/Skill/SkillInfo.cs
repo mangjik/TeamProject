@@ -15,7 +15,7 @@ public class SkillInfo
     public GameObject Throw = null;
     public float Speed;
     public bool Removing;
-
+    public AudioClip Audio;
     public GameObject UseSkill(int beforeMP, out int atferMp, out string triggerName)
     {
         atferMp = beforeMP - ConsumedMP;
@@ -28,4 +28,6 @@ public class SkillInfo
         triggerName = this.TriggerName;
         return Throw;
     }
+    
+   
 }

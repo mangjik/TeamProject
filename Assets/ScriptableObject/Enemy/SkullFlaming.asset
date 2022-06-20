@@ -15,7 +15,7 @@ MonoBehaviour:
   enemyBasicInfo:
     Survival: 1
     HP: 5
-    AttackPoint: 0
+    AttackPoint: 10
     Speed: 2
     Type: 6
     AttackDistance: 0

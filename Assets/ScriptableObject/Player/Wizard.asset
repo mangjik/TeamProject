@@ -15,7 +15,7 @@ MonoBehaviour:
   career: 0
   playerBasicInfo:
     Survival: 0
-    HP: 5
+    HP: 100
     AttackPoint: 5
     Speed: 5
     MaxMP: 100
@@ -24,4 +24,5 @@ MonoBehaviour:
     IsGrounded: 1
     DoubleJump: 0
     animator: {fileID: 9100000, guid: f6ddbd39411e1d441bce4b19863a802a, type: 2}
+    AudioClips: []
   skills: {fileID: 11400000, guid: 20c4d8c160297c44dbbc4b9b9df341a9, type: 2}

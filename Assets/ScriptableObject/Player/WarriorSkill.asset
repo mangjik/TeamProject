@@ -23,9 +23,10 @@ MonoBehaviour:
     Throw: {fileID: 0}
     Speed: 0
     Removing: 0
+    Audio: {fileID: 0}
   - name: "\uAE30\uBCF8\uACF5\uACA9"
     ConsumedMP: 0
-    AttackPoint: 5
+    AttackPoint: 10
     Delay: 0
     Icon: {fileID: 0}
     TriggerName: Skill1
@@ -33,6 +34,7 @@ MonoBehaviour:
     Throw: {fileID: 0}
     Speed: 0
     Removing: 0
+    Audio: {fileID: 8300000, guid: a33a0d0b87159b64eb1011944dbca8b5, type: 3}
   - name: "\uC2A4\uD0AC1"
     ConsumedMP: 10
     AttackPoint: 20
@@ -43,3 +45,4 @@ MonoBehaviour:
     Throw: {fileID: 7103205491171855608, guid: 937c5ee7c7164ab4880ce53015b361c3, type: 3}
     Speed: 4
     Removing: 1
+    Audio: {fileID: 8300000, guid: a295183bd551a5b4d8350831b746864d, type: 3}

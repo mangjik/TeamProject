@@ -3,7 +3,16 @@ guid: 19748c2bfaee714479d644309711a21e
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - m_ThrowStartTrans: {instanceID: 0}
+  - m_meleeAttackTrans: {instanceID: 0}
+  - audioJump: {instanceID: 0}
+  - audio2ndJump: {fileID: 8300000, guid: 2988e4a8d05ef6c4f9ecbbf3f0ca06a3, type: 3}
+  - audioAttack: {fileID: 8300000, guid: a33a0d0b87159b64eb1011944dbca8b5, type: 3}
+  - audioMagicAttack: {instanceID: 0}
+  - audioDamaged: {fileID: 8300000, guid: c5b0ea1617083284fb9feb4399a30171, type: 3}
+  - audioMagicSkill: {instanceID: 0}
+  - audioSkill: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

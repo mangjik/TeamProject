@@ -13,7 +13,7 @@ public class PlayerBasicInfo : BasicInfo
     public bool DoubleJump;
 
     public RuntimeAnimatorController animator;
-
+    public AudioClip[] AudioClips;
     public PlayerBasicInfo(int hp, int mp, int attackPoint, float speed, int jumpForce)
     {
         this.Survival = true;
